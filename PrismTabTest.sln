@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismTabTest", "PrismTabTest\PrismTabTest.csproj", "{BB14C6C6-EE84-44FC-8985-ABEC82A1D730}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismTabTest", "PrismTabTest\PrismTabTest.csproj", "{BB14C6C6-EE84-44FC-8985-ABEC82A1D730}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module1", "Module1\Module1.csproj", "{7C2CF62E-E795-4B1B-9EBB-4609088D8ACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module1", "Module1\Module1.csproj", "{7C2CF62E-E795-4B1B-9EBB-4609088D8ACF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module2", "Module2\Module2.csproj", "{61F5F70B-80FC-4EA9-BFA4-36D821BDD20A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module2", "Module2\Module2.csproj", "{61F5F70B-80FC-4EA9-BFA4-36D821BDD20A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

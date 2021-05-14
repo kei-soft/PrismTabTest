@@ -20,6 +20,9 @@ namespace Module1.Views
     /// </summary>
     public partial class ViewA : UserControl
     {
+        /// <summary>
+        /// 선택이 다시 된다고 해서 생성자가 계속 타는건 아님
+        /// </summary>
         public ViewA()
         {
             InitializeComponent();

@@ -32,21 +32,10 @@ namespace PrismTabTest
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
-            // 1. 소스로 load module
-            // 자동 로드
-            //moduleCatalog.AddModule<Module1.Module1Module>(InitializationMode.WhenAvailable);
+            moduleCatalog.AddModule<Module1.Module1Module>(InitializationMode.WhenAvailable);
 
             // 수동 로드
-            //moduleCatalog.AddModule<Module2.Module2Module>(InitializationMode.OnDemand);
-        }
-
-        // Config 를 이용한 Load Module
-        protected override IModuleCatalog CreateModuleCatalog()
-        {
-            // 성공
-            //return new DirectoryModuleCatalog() { ModulePath = @".\\" };
-            // 아래 에러남
-            return new ConfigurationModuleCatalog();
+            moduleCatalog.AddModule<Module2.Module2Module>(InitializationMode.OnDemand);
         }
     }
 }
