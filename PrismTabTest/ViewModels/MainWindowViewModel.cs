@@ -26,7 +26,11 @@ namespace PrismTabTest.ViewModels
         public string Title
         {
             get { return _title; }
-            set { SetProperty(ref _title, value); }
+            // 프로퍼티 변경에 따른 액션 메서드 추가가능
+            set { SetProperty(ref _title, value, ()=>
+                {
+                    // 솰라솰라
+                }); }
         }
 
         public MainWindowViewModel(IRegionManager regionManager, IModuleManager moduleManager)
